@@ -1,0 +1,10 @@
+Intuition
+Making an another array and directly swapping will work, but it gave array index out of bound exception
+
+Approach
+1.Transpose: Make col=row+1 in initializing as the already transposed shouldn't get swapped again
+2.Flip:by traversing the array to half the columns only
+
+Complexity
+Time complexity:O(n^2)
+Space complexity:O(n)
